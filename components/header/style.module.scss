@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+
+  padding: 1rem;
+}
+.logo {
+  padding: 0 1rem;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.navBar > a {
+  text-decoration: none;
+  color: #fff;
+
+  padding: 0 1rem;
+}
